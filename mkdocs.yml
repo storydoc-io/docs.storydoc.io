@@ -77,7 +77,7 @@ docs_dir: docs/
 # +--------------------------------------------------------------------------------------------------------+
 repo_name: storydoc-io/fabric-readthedocs
 repo_url: https://github.com/storydoc-io/fabric-readthedocs
-#edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
+edit_uri: tree/main/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
