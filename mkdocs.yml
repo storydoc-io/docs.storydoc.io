@@ -75,8 +75,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: storydoc-io/fabric-readthedocs
-repo_url: https://github.com/storydoc-io/fabric-readthedocs
+repo_name: storydoc-io/docs.storydoc.io
+repo_url: https://github.com/storydoc-io/docs.storydoc.io
 edit_uri: tree/main/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
