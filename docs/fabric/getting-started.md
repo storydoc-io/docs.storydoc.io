@@ -18,7 +18,7 @@ To install the package unzip into a folder of your choice.
 
 ### application settings
 
-To change the settings open config/application.yaml
+Application settings can be set in ```config/application.yaml```
 
 After making changes the server needs to be restarted.
 
@@ -44,6 +44,17 @@ make sure the directory exists and is accessible!
 
 by default no JDBC drivers are included
 
-add a JDBC driver jar in the "lib" directory (subdir of the installation directory)  and restart
+add a JDBC driver jar in the ```lib``` directory (subdir of the installation directory)  and restart
 
+## Running the server
+
+- on Windows: 
+```
+run.bat
+```
+- on Linux:
+```
+chmod u+x run.sh
+./run.sh
+```
 
