@@ -1,3 +1,6 @@
 # Console
 
-![Default View](console-default.png)
+
+[![Default View]][Default View]
+
+[Default View]: console-default.png
