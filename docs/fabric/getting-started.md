@@ -18,16 +18,27 @@ To install the package unzip into a folder of your choice.
 
 ### application settings
 
-to change the settings open config/application.yaml
+To change the settings open config/application.yaml
 
-        server port  (default: 8080)
+After making changes the server needs to be restarted.
 
+#### server port 
 
-### workspace
+``` yaml
+server:
+  port : 8080
+```
+
+#### workspace
 
 (meta)data is by default kept in the "workspace" directory
 
-this directory can be changed in run.sh or run.bat
+``` yaml
+io.storydoc:
+  workspaceFolder: workspace
+```
+
+make sure the directory exists and is accessible!
 
 ### jdbc drivers
 
