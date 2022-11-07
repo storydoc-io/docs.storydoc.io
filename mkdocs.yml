@@ -97,7 +97,7 @@ nav:
   - Fabric:
     - Overview: fabric/overview.md
     - Getting started: fabric/getting-started.md
-    - Reference guide: fabric/reference-guide.md
+    - Reference guide:
       - Settings page: fabric/reference-guide/settings-page.md
       - Console : fabric/reference-guide/console.md
 
