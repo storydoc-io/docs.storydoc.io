@@ -22,25 +22,25 @@ Application settings can be set in ```config/application.yaml```
 
 After making changes the server needs to be restarted.
 
-#### server port 
+`server port` 
 
-``` yaml
-server:
-  port : 8080
-```
+:   ``` yaml
+    server:
+      port : 8080
+    ```
 
-#### workspace
+`workspace`
 
-(meta)data is by default kept in the "workspace" directory
-
-``` yaml
-io.storydoc:
-  workspaceFolder: workspace
-```
-
-!!! tip 
-
-    make sure the alternate workspace directory exists and is accessible.  
+:   (meta)data is by default kept in the "workspace" directory
+        
+    ``` yaml
+    io.storydoc:
+      workspaceFolder: workspace
+    ```
+    
+    !!! tip 
+    
+        make sure the alternate workspace directory exists and is accessible.  
 
 
 ### jdbc drivers
