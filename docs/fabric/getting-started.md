@@ -20,12 +20,14 @@ To install the package unzip into a folder of your choice.
 
 Application settings can be set in ```config/application.yaml```
 
-After making changes the server needs to be restarted.
+!!! tip
+
+    restart the server after making changes to the ```application.yaml```file    
 
 `server port` 
 
-:
-
+:   the default port is 8080
+    
     ``` yaml
     server:
       port : 8080
