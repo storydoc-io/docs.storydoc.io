@@ -38,13 +38,20 @@ io.storydoc:
   workspaceFolder: workspace
 ```
 
-make sure the directory exists and is accessible!
+!!! tip 
+
+    make sure the alternate workspace directory exists and is accessible.  
+
 
 ### jdbc drivers
 
 by default no JDBC drivers are included
 
-add a JDBC driver jar file for your database in the ```lib``` directory (subdir of the installation directory)  and restart
+add a JDBC driver jar file for your database in the ```lib``` directory (subdir of the installation directory) 
+
+!!! tip
+
+    restart the server after adding a jar file in the ```lib``` directory    
 
 ## Running the server
 
