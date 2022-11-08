@@ -458,7 +458,9 @@ extra:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 markdown_extensions:
-  - markdown.extensions.admonition:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - markdown.extensions.codehilite:
       guess_lang: false
   - markdown.extensions.toc:
