@@ -73,3 +73,5 @@ You can __test__ the connection before saving the settings.
 [![settings-page-add-connection-settings]][settings-page-add-connection-settings]
 
 [settings-page-add-connection-settings]: settings-page-add-connection-settings.png
+
+:octicons-alert-24: to test a JDBC connection you need to install a JDBC driver for the database.  
