@@ -24,7 +24,9 @@ After making changes the server needs to be restarted.
 
 `server port` 
 
-:   ``` yaml
+:
+
+    ``` yaml
     server:
       port : 8080
     ```
