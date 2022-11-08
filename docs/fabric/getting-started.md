@@ -35,7 +35,7 @@ Application settings can be set in ```config/application.yaml```
 
 `workspace`
 
-:   (meta)data is by default kept in the "workspace" directory
+:   (meta)data is by default kept in the ```workspace``` directory
         
     ``` yaml
     io.storydoc:
@@ -44,7 +44,7 @@ Application settings can be set in ```config/application.yaml```
     
     !!! tip 
     
-        make sure the alternate workspace directory exists and is accessible.  
+        The default ```workspace``` directory is part of the installation. If you change the workspace directory, make sure the alternate workspace directory exists and is accessible.  
 
 
 ### jdbc drivers
