@@ -44,7 +44,7 @@ make sure the directory exists and is accessible!
 
 by default no JDBC drivers are included
 
-add a JDBC driver jar in the ```lib``` directory (subdir of the installation directory)  and restart
+add a JDBC driver jar file for your database in the ```lib``` directory (subdir of the installation directory)  and restart
 
 ## Running the server
 
