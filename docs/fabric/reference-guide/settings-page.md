@@ -74,6 +74,6 @@ You can __test__ the connection before saving the settings.
 
 [settings-page-add-connection-settings]: settings-page-add-connection-settings.png
 
-!!! info
+!!! info "Testing JDBC connections"
 
-  To test a JDBC connection you need to install a JDBC driver for the database.  
+    To test a JDBC connection you need to install a JDBC driver for the database.  
