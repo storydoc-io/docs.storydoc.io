@@ -1,6 +1,7 @@
 # Settings page
 
 On the settings page you can 
+
 - maintain a list of ___datasources___ and ___environments___
 - add connection details per environment for a datasource
 - manage metadata for each datasource
