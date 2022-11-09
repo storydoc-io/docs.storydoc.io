@@ -93,7 +93,7 @@ edit_uri: tree/main/docs # Uncomment to define a different URI/URL for the "edit
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-  - Welcome: index.md
+  - About: about-storydoc-io.md
   - Fabric:
     - Overview: fabric/overview.md
     - Getting started: fabric/getting-started.md
