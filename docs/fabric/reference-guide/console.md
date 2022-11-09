@@ -2,13 +2,13 @@
 
 ## Connecting
 
-Create a connection by selecting a datasource and an environment from the console menu and clicking the connect icon.
+Open a connection by selecting a datasource and an environment from the console menu and clicking the connect icon.
 
 [![console-connect]][console-connect]
 
 [console-connect]: console-connect.png
 
-Once the connection is active the menu will show the active datasource and environment. 
+Once the connection is open the menu will show the active datasource and environment. 
 
 ## Disconnecting
 
@@ -21,7 +21,7 @@ You can close the connection by hovering the mouse over the active connection an
 
 ## Running a query
 
-Run a query py filling in the fields of the __query input panel__ and click the __run__ button
+Run a query by filling in the fields of the __query input panel__ and click the __run__ button
 
 [![console-run-query]][console-run-query]
 
@@ -29,12 +29,12 @@ Run a query py filling in the fields of the __query input panel__ and click the 
 
 ## Using the history panel
 
-The __history panel__ shows all queries that have successfully run in this session.
+The __history panel__ shows a list of queries that have successfully run in the current session.
 
-You can 
+A history item has actions to 
 
-  - convert a history item [into a snippet](convert-to-snippet)
-  - re-run the query by selecting it
+  - convert the item [into a snippet](#convert-to-snippet)
+  - re-run the item
   - delete it from the history
 
 [![console-history]][console-history]
@@ -43,11 +43,11 @@ You can
 
 ## Convert to snippet
 
-A snippet is persistent across sessions and can be used to keep frequenctly used queries. 
+A snippet is persistent across sessions and can be used to keep frequently used queries. 
 
-When you click the __To Snippet__ action on a history item, the __create snippet dialog__ is showed
+When you click the __To Snippet__ action on a history item, the __create snippet dialog__ is shown
 
-You can name the snippet and make some modifications to the queryto make it more generic, e.g. parametrize it by placing query parameters with a placeholder in angel brackets.  
+You can name the snippet and make some modifications to the query, e.g. parametrize it by replacing some of the parameters with a placeholder.  
 
 [![console-snippet-dialog]][console-snippet-dialog]
 
@@ -56,9 +56,9 @@ You can name the snippet and make some modifications to the queryto make it more
 
 ## Using the snippet panel
 
-The __snippets panel__ contains persistent snippets across sessions and can be used to keep frequenctly used queries.
+The __snippets panel__ contains a list of frequently used queries. The list is not session specific, i.e. persistent across sessions.
 
-Select the snippet to copy it in the __query input panel__ and fill in the parameters 
+Select a snippet to copy it into the __query input panel__  
 
 [![console-snippets]][console-snippets]
 
