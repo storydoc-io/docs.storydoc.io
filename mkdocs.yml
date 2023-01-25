@@ -101,7 +101,7 @@ nav:
       - Settings:
         - Environments: fabric/reference-guide/settings/environments/environments-page.md
         - Datasources: fabric/reference-guide/settings/datasources/datasources-page.md
-        - Metamodels: fabric/reference-guide/settings/metamodel/metamodels-page.md
+        - Metamodels: fabric/reference-guide/settings/metamodels/metamodels-page.md
         - Connections: fabric/reference-guide/settings/connections/connections-page.md
       - Console : fabric/reference-guide/console.md
 
