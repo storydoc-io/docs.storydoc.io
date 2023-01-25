@@ -79,3 +79,16 @@ You can __test__ the connection before saving the settings.
     To test a JDBC connection you first need to [install the JDBC driver] for the database.  
 
   [install the JDBC driver]: ../getting-started.md#jdbc-drivers
+
+### Metadata settings page
+
+You can navigate to the __metadata settings page__ for a datasource by clicking the __metadata button__ on the __datasource overview page__ .
+
+[![settings-datasource-metamodel]][settings-datasource-metamodel]
+
+[settings-datasource-metamodel]: settings-datasource-metamodel.png
+
+The metadata is organized in columns as in MacOSX Finder. E.g. for an SQL  datasource select a table to show the table 
+details in a second column, the click a foreign key to see the foreign key details in te next column.
+
+To refresh the metadata, click the __reload__  button and select the environment to load the metadata from.
